@@ -17,4 +17,4 @@ sudo insmod bad_udp.ko
 I've included a python script ```send_reverse_tcp_shell.py``` which will send a remote command to the victim opening a reverse bash TCP shell. Ensure you have a listener running as your shell server before running the python script (eg. netcat listener ```nc -lvp 4444```)
 
 
-#### This LKM rootkit was written for the CFC competition red team members and is intdended to be used for lawful purposes only. You are responsible for your own actions and consequences if you use this module illegally.
+#### This LKM rootkit was written for the CFC competition red team members and is intended to be used for lawful purposes only. You are responsible for your own actions and consequences if you use this module illegally.
