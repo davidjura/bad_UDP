@@ -87,7 +87,7 @@ bad_udp_netfilter_hook(const struct nf_hook_ops *ops, struct sk_buff *skb, const
             cI = 0;
     }
 
-    if (cL != cI) return NF_DROP;
+    if (cL != cI) return NF_ACCEPT;
 	
     head = it;
     int i = 0;
